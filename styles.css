@@ -1,0 +1,66 @@
+:root{
+    --pink: #FFCED1;
+    --cream: #FEF5D7;
+    --red: #FF8168;
+}
+
+
+body{
+    font-family: 'FantasqueSansMonoRegular';
+    font-weight: normal;
+    font-style: normal;
+    background-color: var(--cream);
+}
+
+main{
+    display: flex;
+}
+
+.signup-side{
+    padding-left: 300px;
+}
+.signup-form{
+    border: solid;
+    padding: 25px;
+    background-color: var(--pink);
+}
+
+h1, h2{
+    text-align: center;
+}
+
+input{
+    border-radius: 25px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.btn{
+    padding-top: 25px;;
+    text-align: center;
+}
+
+button{
+    padding: 5px;
+    border-radius: 25px;
+}
+
+button:hover {
+    background-color: var(--red); /* Green */
+    color: var(--cream);
+    cursor: pointer;
+}
+
+.error{
+    display: none;
+}
+
+.error.active{
+    display:block;
+}
+
+input:invalid {
+    box-shadow: 0 0 5px 1px red;
+  }
+
+
